@@ -1,0 +1,5 @@
+{
+  "_comment": "This file defines the weights for evaluating recipes. 'tasteWeight' affects how much taste factors into the overall score, while 'healthWeight' affects the healthiness contribution.",
+  "tasteWeight": 0.25,
+  "healthWeight": 0.75
+}

@@ -1,0 +1,47 @@
+Project File Structure for: /Users/raw-e/Desktop/TBD
+
+[ai/]
+    [llm_interactor/]
+        - llm_interactor.py
+    [recipe_generator/]
+        - recipe_evaluation_dimensions.json
+        - recipe_generation_strategy.md
+        - recipe_generator.py
+- command_line_entry.py
+[configuration/]
+    - .env
+    - .gitignore
+[data/]
+    [databases/]
+        [mongodb_atlas/]
+            - connect_to_database.py
+            [database_operations/]
+                - state_of_being_related.py
+    [project_information/]
+        [current_system/]
+            - current_system.md
+        [documentation/]
+            - code_documentation_guidelines.md
+        [file_structure/]
+            - get_project_file_structure.py
+            - project_file_structure.txt
+        [ideas/]
+            [potential_improvements/]
+                - for_state_of_being_tracking.md
+        [observations/]
+            - my_observations.md
+    [recipes/]
+        - saved_preliminary_recipes.txt
+[experiments/]
+    [llm_observing_user/]
+        - experiment.py
+        - llm_observations_of_user.txt
+        - overview.md
+[user_actions/]
+    - state_of_being_actions.py
+[website/]
+    - app.py
+    - document_manager.py
+    [templates/]
+        - index.html
+- website_entry.py

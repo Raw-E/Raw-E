@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update System Document</title>
+</head>
+<body>
+    <h1>Update System Document</h1>
+    <form method="post">
+        <label for="section">Select Section:</label>
+        <select name="section" id="section">
+            {% for section in sections %}
+            <option value="{{ section }}">{{ section }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <label for="content">Content:</label>
+        <textarea name="content" id="content" rows="4" cols="50"></textarea>
+        <br><br>
+        <button type="submit">Append Content</button>
+    </form>
+</body>
+</html>
